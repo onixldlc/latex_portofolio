@@ -1,0 +1,15 @@
+*.pdf
+*.log
+*.aux
+personal-data.tex
+achievements.tex
+interest.tex
+skills.tex
+education.tex
+languages.tex
+summary.tex
+experience.tex
+projects.tex
+
+
+

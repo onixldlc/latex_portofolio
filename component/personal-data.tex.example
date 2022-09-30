@@ -1,0 +1,31 @@
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{./examples/profile}
+\name{Jaka}{Sunaryo}
+% \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
+\address{Jawa barat, Bandung, Cimahi}
+
+\mobile{####-####-####}
+\email{fake@example.com}
+%\dateofbirth{January 1st, 1970}
+%\homepage{www.posquit0.com} 
+\github{github.com/example}
+\linkedin{linkedin.com/in/example}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+% \quote{``Simplicity is deceptively complicated."}
+%-------------------------------------------------------------------------------
