@@ -26,7 +26,7 @@ sudo apt get install texlive-bibtexextra \
   texlive-pictures \
   texlive-pstricks \
   texlive-publishers \
-  texlive-science \
+  texlive-science 
 ```
 
 #### arch
@@ -45,7 +45,7 @@ sudo pacman -S texlive-bibtexextra \
   texlive-pictures \
   texlive-pstricks \
   texlive-publishers \
-  texlive-science \
+  texlive-science 
 ```
 
 then run the setup using
