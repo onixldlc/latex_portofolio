@@ -60,5 +60,6 @@ then edit the personal data file on component folder, and the cv folder. After t
 to change what browser you want to use to preview the file you can change it in compile.sh
 
 ## CREDIT
-thanks to Dipan Nanda for making the template accessible on overleaf in the first place
+thanks to Dipan Nanda And Overleaf for making the template accessible on overleaf in the first place \
+[original template](https://www.overleaf.com/latex/templates/russelresume/zqnypvvjsfvq)
 
