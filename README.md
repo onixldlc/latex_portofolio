@@ -3,18 +3,61 @@
 this is my simple latex portofolio template
 
 ## USAGE
-to use this you just need to rename the personal-data file and compile it using xelatex
+to use this you just need to clone the repo, install texlive and run the setup and compile script
 
 ### SETUP
-to use this go to the `./component` and rename `personal-data.tex.example` to `personal-data.tex` and change some data in it
-
-### COMPILE
-to compile this just run
+to set it up you need to clone the repo 
 ```
-xelatex main.tex
+git clone https://github.com/onixldlc/latex_portofolio.git
 ```
-and you should endup with main.pdf
+then you need to install some latex dependencies
 
+#### debian 
+```
+sudo apt get install texlive-bibtexextra \
+  texlive-bin \
+  texlive-core \
+  texlive-fontsextra \
+  texlive-formatsextra \
+  texlive-games \
+  texlive-humanities \
+  texlive-latexextra \
+  texlive-music \
+  texlive-pictures \
+  texlive-pstricks \
+  texlive-publishers \
+  texlive-science \
+```
+
+#### arch
+```
+sudo pacman -S texlive-most
+# or
+sudo pacman -S texlive-bibtexextra \
+  texlive-bin \
+  texlive-core \
+  texlive-fontsextra \
+  texlive-formatsextra \
+  texlive-games \
+  texlive-humanities \
+  texlive-latexextra \
+  texlive-music \
+  texlive-pictures \
+  texlive-pstricks \
+  texlive-publishers \
+  texlive-science \
+```
+
+then run the setup using
+```
+chmod u+x setup.sh
+./setup.sh
+```
+then edit the personal data file on component folder, and the cv folder. After that compile it using the compile.sh. And now you should end up with you main.pdf and also a new firefox window will open.
+
+
+### additional
+to change what browser you want to use to preview the file you can change it in compile.sh
 
 ## CREDIT
 thanks to Dipan Nanda for making the template accessible on overleaf in the first place
