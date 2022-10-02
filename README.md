@@ -5,7 +5,7 @@ this is my simple latex portofolio template
 ## USAGE
 to use this you just need to clone the repo, install texlive and run the setup and compile script
 
-### SETUP
+### INSTALATION
 to set it up you need to clone the repo 
 ```
 git clone https://github.com/onixldlc/latex_portofolio.git
@@ -48,18 +48,26 @@ sudo pacman -S texlive-bibtexextra \
   texlive-science 
 ```
 
+### SETUP
 then run the setup using
 ```
 chmod u+x setup.sh
 ./setup.sh
 ```
-then edit the personal data file on component folder, and the cv folder. After that compile it using the compile.sh. And now you should end up with you main.pdf and also a new firefox window will open.
+then edit the personal data file on component folder, and the cv folder.
+
+### COMPILE
+After editing, compile it all with the compile.sh using
+```
+./compile.sh
+```
+And now you should end up with you main.pdf and also a new firefox window will open.
 
 
 ### additional
 to change what browser you want to use to preview the file you can change it in compile.sh
 
 ## CREDIT
-thanks to Dipan Nanda And Overleaf for making the template accessible on overleaf in the first place \
+thanks to Dipan Nanda And Overleaf for making the template accessible in the first place \
 [original template](https://www.overleaf.com/latex/templates/russelresume/zqnypvvjsfvq)
 
