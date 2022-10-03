@@ -1,15 +1,7 @@
 *.pdf
 *.log
 *.aux
-personal-data.tex
-achievements.tex
-interests.tex
-skills.tex
-education.tex
-languages.tex
-summary.tex
-experience.tex
-projects.tex
-
-
+component/personal-data.tex
+component/content.tex
+cv/*.tex
 

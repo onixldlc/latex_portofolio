@@ -29,4 +29,4 @@ absolutePath "./cv/"
 renameAll "$(ls -1)"
 
 absolutePath "./component/"
-rename "personal-data.tex.example" "personal-data.tex"
+renameAll "$(ls -1)"
