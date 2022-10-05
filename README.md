@@ -14,7 +14,7 @@ then you need to install some latex dependencies
 
 #### debian 
 ```
-sudo apt get install texlive-bibtexextra \
+sudo apt install texlive-bibtexextra \
   texlive-bin \
   texlive-core \
   texlive-fontsextra \
